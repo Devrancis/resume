@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Francis Iyiola - Resume</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,sans-serif;font-size:13px;color:#2d3748;background:#f0f4f8;padding:20px}
+.page{background:#fff;max-width:860px;margin:0 auto;padding:32px 36px;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,0.08)}
+.header{display:flex;align-items:flex-start;gap:20px;padding-bottom:18px;border-bottom:1px solid #e2e8f0}
+.avatar{width:72px;height:72px;border-radius:8px;background:linear-gradient(135deg,#2b6cb0,#3182ce);display:flex;align-items:center;justify-content:center;color:#fff;font-size:22px;font-weight:700;flex-shrink:0}
+.header-info{flex:1}
+.header-info h1{font-size:22px;font-weight:700;color:#1a202c;line-height:1.2}
+.header-info h2{font-size:13px;color:#4a90d9;font-weight:500;margin-top:2px}
+.contact-row{display:flex;flex-wrap:wrap;gap:16px;margin-top:8px}
+.contact-item{display:flex;align-items:center;gap:5px;font-size:12px;color:#4a5568}
+.contact-item svg{width:13px;height:13px;color:#4a90d9;flex-shrink:0}
+.section{margin-top:18px}
+.section-title{font-size:12px;font-weight:700;color:#4a90d9;text-transform:uppercase;letter-spacing:0.08em;display:flex;align-items:center;gap:6px;margin-bottom:10px}
+.section-title::before{content:'';display:inline-block;width:8px;height:8px;background:#4a90d9;border-radius:2px}
+.section-title::after{content:'';flex:1;height:1px;background:#bee3f8;margin-left:6px}
+.online-presence{display:flex;gap:24px;flex-wrap:wrap}
+.presence-item{display:flex;flex-direction:column;gap:2px}
+.presence-label{font-size:11px;color:#718096;font-weight:600;text-transform:uppercase;letter-spacing:0.05em}
+.presence-handle{font-size:12px;color:#4a90d9;font-weight:500}
+.summary-text{font-size:12.5px;color:#4a5568;line-height:1.65}
+.skills-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.skill-card{background:#f7faff;border:1px solid #dbeafe;border-radius:7px;padding:12px}
+.skill-icon{font-size:18px;margin-bottom:6px}
+.skill-name{font-size:12.5px;font-weight:700;color:#1a202c}
+.skill-level{font-size:11px;color:#4a90d9;font-weight:600;margin-top:1px;margin-bottom:6px}
+.skill-tags{font-size:11px;color:#718096;line-height:1.5}
+.skill-bars{display:flex;gap:3px;margin-top:8px}
+.bar{height:4px;flex:1;border-radius:2px;background:#dbeafe}
+.bar.filled{background:#4a90d9}
+.exp-item{margin-bottom:14px}
+.exp-header{display:flex;justify-content:space-between;align-items:baseline}
+.exp-company{font-size:13px;font-weight:700;color:#1a202c}
+.exp-location{font-size:11.5px;color:#718096}
+.exp-role-row{display:flex;justify-content:space-between;align-items:baseline;margin-top:1px}
+.exp-role{font-size:12px;color:#4a90d9;font-weight:500}
+.exp-date{font-size:11px;color:#718096}
+.exp-bullets{margin-top:5px;padding-left:0;list-style:none}
+.exp-bullets li{font-size:12px;color:#4a5568;line-height:1.55;padding-left:12px;position:relative;margin-bottom:3px}
+.exp-bullets li::before{content:'•';position:absolute;left:0;color:#4a90d9;font-weight:700}
+.projects-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.project-card{border:1px solid #dbeafe;border-radius:7px;padding:11px 13px}
+.project-name{font-size:12.5px;font-weight:700;color:#1a202c}
+.project-stack{font-size:11px;color:#4a90d9;margin-top:2px;font-weight:500}
+.project-desc{font-size:11.5px;color:#4a5568;margin-top:5px;line-height:1.55}
+.project-link{font-size:11px;color:#a0aec0;margin-top:4px}
+@media print{body{background:#fff;padding:0}}.page{box-shadow:none}
+</style>
+</head>
+<body>
+<div class="page">
+
+<div class="header">
+  <div class="avatar">FI</div>
+  <div class="header-info">
+    <h1>Francis Iyiola</h1>
+    <h2>Cybersecurity Engineer &amp; Full-Stack Developer</h2>
+    <div class="contact-row">
+      <span class="contact-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        francisiyiola.fi@gmail.com
+      </span>
+      <span class="contact-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        Akure, Ondo State, Nigeria
+      </span>
+      <span class="contact-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+        <a href="https://devrancis.vercel.app" target="_blank">devrancis.vercel.app</a>
+      </span>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Online Presence</div>
+  <div class="online-presence">
+    <div class="presence-item">
+      <span class="presence-label">GitHub</span>
+      <span class="presence-handle"><a href="https://github.com/devrancis" target="_blank">github.com/devrancis</a></span>
+    </div>
+    <div class="presence-item">
+      <span class="presence-label">LinkedIn</span>
+      <span class="presence-handle"><a href="https://linkedin.com/in/devrancis" target="_blank">linkedin.com/in/devrancis</a></span>
+    </div>
+    <div class="presence-item">
+      <span class="presence-label">X / Twitter</span>
+      <span class="presence-handle"><a href="https://x.com/devrancis" target="_blank">@devrancis</a></span>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Professional Summary</div>
+  <p class="summary-text">Cybersecurity Engineer and Full-Stack Software Developer with a rigorous grounding in discrete mathematics, formal logic, and systems theory, applied across offensive security, secure architecture, and distributed software infrastructure. Technical scope spans the full computing stack — from assembly-level exploitation and binary analysis, through systems programming in Rust and C/C++, to cloud-native orchestration and production-grade web systems. Active research trajectory targeting machine learning for static and dynamic malware classification.</p>
+</div>
+
+<div class="section">
+  <div class="section-title">Technical Skills</div>
+  <div class="skills-grid">
+
+    <div class="skill-card">
+      <div class="skill-icon">🛡️</div>
+      <div class="skill-name">Penetration Testing</div>
+      <div class="skill-level">Expert</div>
+      <div class="skill-tags">OWASP Top 10, Nmap, Burp Suite,<br>Metasploit, Kali Linux</div>
+      <div class="skill-bars">
+        <div class="bar filled"></div><div class="bar filled"></div><div class="bar filled"></div><div class="bar filled"></div><div class="bar filled"></div>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-icon">🐍</div>
+      <div class="skill-name">Python / Django</div>
+      <div class="skill-level">Expert</div>
+      <div class="skill-tags">Django, DRF, Celery, Django Channels,<br>PostgreSQL, Redis</div>
+      <div class="skill-bars">
+        <div class="bar filled"></div><div class="bar filled"></div><div class="bar filled"></div><div class="bar filled"></div><div class="bar filled"></div>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-icon">⚡</div>
+      <div class="skill-name">TypeScript / Next.js</div>
+      <div class="skill-level">Advanced</div>
+      <div class="skill-tags">Next.js, React, Vite, Node.js,<br>Prisma, Drizzle ORM</div>
+      <div class="skill-bars">
+        <div class="bar filled"></div><div class="bar filled"></div><div class="bar filled"></div><div class="bar filled"></div><div class="bar"></div>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-icon">🦀</div>
+      <div class="skill-name">Systems Programming</div>
+      <div class="skill-level">Advanced</div>
+      <div class="skill-tags">Rust, C/C++, x86-64 Assembly,<br>Bash, Linux Kernel</div>
+      <div class="skill-bars">
+        <div class="bar filled"></div><div class="bar filled"></div><div class="bar filled"></div><div class="bar filled"></div><div class="bar"></div>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-icon">☁️</div>
+      <div class="skill-name">Cloud &amp; DevSecOps</div>
+      <div class="skill-level">Advanced</div>
+      <div class="skill-tags">Docker, Kubernetes, Terraform,<br>AWS, Nginx, GitHub Actions</div>
+      <div class="skill-bars">
+        <div class="bar filled"></div><div class="bar filled"></div><div class="bar filled"></div><div class="bar filled"></div><div class="bar"></div>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-icon">🔬</div>
+      <div class="skill-name">Malware Analysis</div>
+      <div class="skill-level">Intermediate</div>
+      <div class="skill-tags">Ghidra, radare2, Static+Dynamic,<br>DFIR, MITRE ATT&amp;CK</div>
+      <div class="skill-bars">
+        <div class="bar filled"></div><div class="bar filled"></div><div class="bar filled"></div><div class="bar"></div><div class="bar"></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Professional Experience</div>
+
+  <div class="exp-item">
+    <div class="exp-header">
+      <span class="exp-company">Vectra AI</span>
+      <span class="exp-location">Remote</span>
+    </div>
+    <div class="exp-role-row">
+      <span class="exp-role">Full Stack Developer &amp; Cybersecurity Engineer</span>
+      <span class="exp-date">Jan 2025 — Present</span>
+    </div>
+    <ul class="exp-bullets">
+      <li>Built security analyst dashboard features using Next.js (App Router, SSR) with Python-backed APIs; security-sensitive logic scoped to server-side execution paths.</li>
+      <li>Contributed to threat intelligence pipelines mapping detections to MITRE ATT&amp;CK identifiers; hardened DevSecOps CI/CD with SAST, Trivy, and Kubernetes RBAC reviews.</li>
+    </ul>
+  </div>
+
+  <div class="exp-item">
+    <div class="exp-header">
+      <span class="exp-company">CipherNest</span>
+      <span class="exp-location">Remote</span>
+    </div>
+    <div class="exp-role-row">
+      <span class="exp-role">Full Stack Developer</span>
+      <span class="exp-date">2023 — 2025</span>
+    </div>
+    <ul class="exp-bullets">
+      <li>Delivered full-stack features across Next.js/TypeScript frontend and Django REST backend; designed RBAC system with RS256 JWT session management and HttpOnly/SameSite=Strict cookie storage.</li>
+      <li>Engineered real-time WebSocket notifications over Redis pub/sub; configured Nginx with TLS termination and HSTS to remove direct server exposure from the network perimeter.</li>
+    </ul>
+  </div>
+
+  <div class="exp-item">
+    <div class="exp-header">
+      <span class="exp-company">Niflare Technologies</span>
+      <span class="exp-location">Remote</span>
+    </div>
+    <div class="exp-role-row">
+      <span class="exp-role">Backend &amp; API Specialist</span>
+      <span class="exp-date">2023</span>
+    </div>
+    <ul class="exp-bullets">
+      <li>Designed Node.js/TypeScript REST APIs with Zod validation, Redis rate-limiting, and JWT middleware; containerised and deployed to AWS EC2 via GitHub Actions CI/CD.</li>
+    </ul>
+  </div>
+
+  <div class="exp-item">
+    <div class="exp-header">
+      <span class="exp-company">Niflare Technologies</span>
+      <span class="exp-location">Remote</span>
+    </div>
+    <div class="exp-role-row">
+      <span class="exp-role">Frontend Developer &amp; Graphics Designer</span>
+      <span class="exp-date">2022 — 2023</span>
+    </div>
+    <ul class="exp-bullets">
+      <li>Built React/TypeScript interfaces with CSP headers, DOMPurify sanitisation, and brand identity systems across product surfaces.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Engineered Projects</div>
+  <div class="projects-grid">
+
+    <div class="project-card">
+      <div class="project-name">Vellon</div>
+      <div class="project-stack">Python · Django · Redis · Celery · Paystack</div>
+      <div class="project-desc">Multi-vendor marketplace with real-time WebSocket messaging, atomic Paystack payments, and Celery async task processing.</div>
+      <div class="project-link"><a href="https://github.com/Devrancis/vellon" target="_blank">github.com/Devrancis/vellon</a></div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-name">CyberFortress</div>
+      <div class="project-stack">Next.js · Prisma · Gemini API · TypeScript</div>
+      <div class="project-desc">AI-driven security analyst dashboard with server-side boundary isolation, CVE/CVSS threat modelling, and Gemini-powered remediation reasoning.</div>
+      <div class="project-link"><a href="https://github.com/Devrancis/CyberFortress" target="_blank">github.com/Devrancis/CyberFortress</a></div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-name">Nexus NFT</div>
+      <div class="project-stack">TypeScript · React · Vite · Drizzle · Solana Web3.js</div>
+      <div class="project-desc">Solana NFT marketplace with non-custodial wallet integration, on-chain SPL Token minting, and full TypeScript strict-mode monorepo.</div>
+      <div class="project-link"><a href="https://github.com/Devrancis/nexus-nft" target="_blank">github.com/Devrancis/nexus-nft</a></div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-name">Xpectra</div>
+      <div class="project-stack">TypeScript · Python · Selenium · Scrapy</div>
+      <div class="project-desc">Bot-detection-resistant scraping framework with rotating proxies, browser fingerprint randomisation, and adaptive exponential backoff.</div>
+      <div class="project-link"><a href="https://github.com/Devrancis/xpectra-scrape" target="_blank">github.com/Devrancis/xpectra-scrape</a></div>
+    </div>
+
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Education</div>
+  <div class="exp-item" style="margin-bottom:0">
+    <div class="exp-header">
+      <span class="exp-company">Federal University of Technology Akure (FUTA)</span>
+      <span class="exp-location">Akure, Nigeria</span>
+    </div>
+    <div class="exp-role-row">
+      <span class="exp-role">B.Tech(in view), Cyber Security - 3rd Year </span>
+      <span class="exp-date">2023 — Present</span>
+    </div>
+    <ul class="exp-bullets" style="margin-top:5px">
+      <li>Core domains: Discrete Structures, Abstract Algebra &amp; Group Theory, Number Theory, Network Security, Malware Analysis &amp; Reverse Engineering.</li>
+      <li>Proposed final-year research: ML-based malware classification using hybrid static-dynamic feature extraction (Random Forests, CNNs, PE header + entropy analysis).</li>
+    </ul>
+  </div>
+</div>
+
+</div>
+</body>
+</html>
